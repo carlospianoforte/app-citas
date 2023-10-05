@@ -1,0 +1,28 @@
+   
+.container
+{          
+    max-width: 600px;  
+    margin: 0 auto;    
+    padding: 20px;
+    font-family: Arial, sans-serif;        
+}        
+
+.card
+{            
+     border: 1px solid #ccc;
+     padding: 10px;
+     margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.cita-card{
+    border: 1px solid #1b80b7;
+    margin-top: 10px;
+    border-radius: 20%;
+    background-color: #e6c5c5;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
