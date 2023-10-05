@@ -10,7 +10,7 @@ agregarButton.addEventListener("click", () => {
     const hora = horaInput.value;
 
 
-    if (nombre && fecha) {
+    if (nombre && fecha && hora) {
         const citaCard = document.createElement("div");
         citaCard.classList.add("cita-card");
         citaCard.innerText = `<h2>${nombre}</h2> <p>Fecha: ${fecha}</p> <p2>Hora: ${hora}</p2>`;
