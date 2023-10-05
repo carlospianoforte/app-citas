@@ -13,7 +13,7 @@ agregarButton.addEventListener("click", () => {
     if (nombre && fecha) {
         const citaCard = document.createElement("div");
         citaCard.classList.add("cita-card");
-        citaCard.innerHTML = `<h2>${nombre}</h2> <p>Fecha: ${fecha}</p> <p2>Hora: ${hora}</p2>`;
+        citaCard.innerText = `<h2>${nombre}</h2> <p>Fecha: ${fecha}</p> <p2>Hora: ${hora}</p2>`;
         citasContainer.appendChild(citaCard);
 
         nombreInput.value = "";
